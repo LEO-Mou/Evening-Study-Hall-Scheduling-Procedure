@@ -1,14 +1,28 @@
-# Evening Study Hall Scheduling Procedure
-作者是一个10后中学生，平时喜欢做一些无用的小程序
+# 晚自习安排系统 / Evening Study Hall Scheduling System
 
-灵感来源：两个年级主任间的谈话，大概就是说晚自习太难排课表了，于是就有了这个evening_study_hall_scheduling_procedure.py程序帮助老师们排课表
+## 简介 / Introduction
+一个用于自动安排晚自习值班教师的半成品GUI程序  
+A semi-finished GUI program for automatically scheduling evening study hall teachers
 
-主要功能及特色：
+## 主要功能 / Features
+- 📅 多语言支持（简中/繁中/英语/俄语/日语）
+- 🖱️ 可视化表格操作界面
+- 👩🏫 教师名单上传功能
+- ⚙️ 课时数量自定义设置
+- 📊 支持多表格并行排班
+- 📥 一键导出Excel文件
 
-1.可以批量生成晚自习的课表，并支持一键导出为Excel文档
+## 使用说明 / Usage
+1. 点击`课时设置`设置每天需要的课时数
+2. 点击`上传名单`导入教师名单（txt文件）
+3. 点击`生成`自动分配教师值班
+4. 使用`新建表`创建多个排班方案
+5. 点击`导出`保存为Excel文件
 
-2.支持导入教师名单，可根据学校自身情况进行调整
+## 注意事项 / Notes
+⚠️ 该程序为半成品，可能存在未完善的逻辑和界面元素 
+⚠️ 教师分配算法目前采用随机选择方式 
+⚠️ 建议导出前仔细检查排班结果
 
-That is all
-
-我编程技术不太好，程序的样式及功能都很单一，谅解
+作者是一个初中生，编程水平并不高，此程序为半成品！！！
+Author is a primary school student, programming skills are not very good, this program is a semi-finished product!!!
