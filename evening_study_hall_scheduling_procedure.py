@@ -235,7 +235,6 @@ class ScheduleApp:
         self.upload_button.config(text=lang["upload"])
         self.export_button.config(text=lang["export"])
         self.new_table_button.config(text=lang["new_table"])
-        # 保持语言按钮文本为 "Language"
         self.language_button.config(text="Language")
 
         new_columns = [lang["section_header"]] + lang["days"]
